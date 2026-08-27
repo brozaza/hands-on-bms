@@ -1,6 +1,6 @@
 /*
     Tulis selector CSS kamu di sini!
-
+    
     Quest 1:
     1. nav → flex container, logo kiri dan nav-links di kanan
     2. .logo → font besar + letter-spacing biar mirip design
@@ -16,3 +16,84 @@
     8. .tentang-content → flex, 2 kolom sejajar
     9. .card → font tebal, line-height biar enak dibaca
 */
+
+body {
+  font-family: 'Iosevka Charon', monospace;
+  color: #000;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+  background-color: #ddd;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+  background: linear-gradient(180deg, #fff 0%, #a6a6a6 100%);
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 5.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.tentang {
+  padding: 3rem 2.5rem;
+}
+
+.tentang h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.tentang-desc {
+  display: flex;
+  gap: 3rem;
+}
+
+.card {
+  flex: 1;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+}

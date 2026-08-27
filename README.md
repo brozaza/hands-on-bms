@@ -6,8 +6,8 @@ Slicing design dari Figma ke HTML, CSS, dan JavaScript.
 
 |          |           |
 | -------- | --------- |
-| **Nama** | Nama Kamu |
-| **NRP**  | 00000000  |
+| **Nama** | Zakary Nareswara Tulus Sinudewangga Hatmadipura |
+| **NRP**  | 5025251087  |
 
 ## Link Figma
 
